@@ -78,7 +78,7 @@ export default function App() {
           color='#00BFFF'
           height={100}
           width={100}
-          timeout={4000} //3 secs
+          timeout={4000}
         />
       ) : (
         <div>
