@@ -21,8 +21,8 @@ export default function App() {
   const [coinSelect, setcoinSelect] = useState(false);
   const [isLoading, setLoading] = useState(true);
 
-  const url = process.env.REACT_APP_URL || 'http://localhost:3030/';
-
+  const url = 'http://localhost:3030/';
+  // process.env.REACT_APP_URL ||
   useEffect(() => {
     setTimeout(function () {
       setLoading(false);
